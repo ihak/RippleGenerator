@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F702A111E824DE200F4CE97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702A101E824DE200F4CE97 /* AppDelegate.swift */; };
+		2F702A131E824DE200F4CE97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702A121E824DE200F4CE97 /* ViewController.swift */; };
+		2F702A161E824DE200F4CE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F702A141E824DE200F4CE97 /* Main.storyboard */; };
+		2F702A181E824DE200F4CE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F702A171E824DE200F4CE97 /* Assets.xcassets */; };
+		2F702A1B1E824DE200F4CE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F702A191E824DE200F4CE97 /* LaunchScreen.storyboard */; };
+		2F702A261E824DE200F4CE97 /* RippleGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702A251E824DE200F4CE97 /* RippleGeneratorTests.swift */; };
+		2F702A311E824DE200F4CE97 /* RippleGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702A301E824DE200F4CE97 /* RippleGeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F702A221E824DE200F4CE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F702A051E824DE200F4CE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F702A0C1E824DE200F4CE97;
+			remoteInfo = RippleGenerator;
+		};
+		2F702A2D1E824DE200F4CE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F702A051E824DE200F4CE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F702A0C1E824DE200F4CE97;
+			remoteInfo = RippleGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F702A0D1E824DE200F4CE97 /* RippleGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RippleGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F702A101E824DE200F4CE97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F702A121E824DE200F4CE97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F702A151E824DE200F4CE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F702A171E824DE200F4CE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F702A1A1E824DE200F4CE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F702A1C1E824DE200F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F702A211E824DE200F4CE97 /* RippleGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F702A251E824DE200F4CE97 /* RippleGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleGeneratorTests.swift; sourceTree = "<group>"; };
+		2F702A271E824DE200F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F702A2C1E824DE200F4CE97 /* RippleGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F702A301E824DE200F4CE97 /* RippleGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleGeneratorUITests.swift; sourceTree = "<group>"; };
+		2F702A321E824DE200F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F702A0A1E824DE200F4CE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F702A1E1E824DE200F4CE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F702A291E824DE200F4CE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F702A041E824DE200F4CE97 = {
+			isa = PBXGroup;
+			children = (
+				2F702A0F1E824DE200F4CE97 /* RippleGenerator */,
+				2F702A241E824DE200F4CE97 /* RippleGeneratorTests */,
+				2F702A2F1E824DE200F4CE97 /* RippleGeneratorUITests */,
+				2F702A0E1E824DE200F4CE97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F702A0E1E824DE200F4CE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F702A0D1E824DE200F4CE97 /* RippleGenerator.app */,
+				2F702A211E824DE200F4CE97 /* RippleGeneratorTests.xctest */,
+				2F702A2C1E824DE200F4CE97 /* RippleGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F702A0F1E824DE200F4CE97 /* RippleGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				2F702A101E824DE200F4CE97 /* AppDelegate.swift */,
+				2F702A121E824DE200F4CE97 /* ViewController.swift */,
+				2F702A141E824DE200F4CE97 /* Main.storyboard */,
+				2F702A171E824DE200F4CE97 /* Assets.xcassets */,
+				2F702A191E824DE200F4CE97 /* LaunchScreen.storyboard */,
+				2F702A1C1E824DE200F4CE97 /* Info.plist */,
+			);
+			path = RippleGenerator;
+			sourceTree = "<group>";
+		};
+		2F702A241E824DE200F4CE97 /* RippleGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F702A251E824DE200F4CE97 /* RippleGeneratorTests.swift */,
+				2F702A271E824DE200F4CE97 /* Info.plist */,
+			);
+			path = RippleGeneratorTests;
+			sourceTree = "<group>";
+		};
+		2F702A2F1E824DE200F4CE97 /* RippleGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F702A301E824DE200F4CE97 /* RippleGeneratorUITests.swift */,
+				2F702A321E824DE200F4CE97 /* Info.plist */,
+			);
+			path = RippleGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F702A0C1E824DE200F4CE97 /* RippleGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F702A351E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGenerator" */;
+			buildPhases = (
+				2F702A091E824DE200F4CE97 /* Sources */,
+				2F702A0A1E824DE200F4CE97 /* Frameworks */,
+				2F702A0B1E824DE200F4CE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RippleGenerator;
+			productName = RippleGenerator;
+			productReference = 2F702A0D1E824DE200F4CE97 /* RippleGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F702A201E824DE200F4CE97 /* RippleGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F702A381E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorTests" */;
+			buildPhases = (
+				2F702A1D1E824DE200F4CE97 /* Sources */,
+				2F702A1E1E824DE200F4CE97 /* Frameworks */,
+				2F702A1F1E824DE200F4CE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F702A231E824DE200F4CE97 /* PBXTargetDependency */,
+			);
+			name = RippleGeneratorTests;
+			productName = RippleGeneratorTests;
+			productReference = 2F702A211E824DE200F4CE97 /* RippleGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F702A2B1E824DE200F4CE97 /* RippleGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F702A3B1E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorUITests" */;
+			buildPhases = (
+				2F702A281E824DE200F4CE97 /* Sources */,
+				2F702A291E824DE200F4CE97 /* Frameworks */,
+				2F702A2A1E824DE200F4CE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F702A2E1E824DE200F4CE97 /* PBXTargetDependency */,
+			);
+			name = RippleGeneratorUITests;
+			productName = RippleGeneratorUITests;
+			productReference = 2F702A2C1E824DE200F4CE97 /* RippleGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F702A051E824DE200F4CE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hassan Ahmed Khan";
+				TargetAttributes = {
+					2F702A0C1E824DE200F4CE97 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2R66XDN32F;
+						ProvisioningStyle = Automatic;
+					};
+					2F702A201E824DE200F4CE97 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2R66XDN32F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F702A0C1E824DE200F4CE97;
+					};
+					2F702A2B1E824DE200F4CE97 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2R66XDN32F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F702A0C1E824DE200F4CE97;
+					};
+				};
+			};
+			buildConfigurationList = 2F702A081E824DE200F4CE97 /* Build configuration list for PBXProject "RippleGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F702A041E824DE200F4CE97;
+			productRefGroup = 2F702A0E1E824DE200F4CE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F702A0C1E824DE200F4CE97 /* RippleGenerator */,
+				2F702A201E824DE200F4CE97 /* RippleGeneratorTests */,
+				2F702A2B1E824DE200F4CE97 /* RippleGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F702A0B1E824DE200F4CE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F702A1B1E824DE200F4CE97 /* LaunchScreen.storyboard in Resources */,
+				2F702A181E824DE200F4CE97 /* Assets.xcassets in Resources */,
+				2F702A161E824DE200F4CE97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F702A1F1E824DE200F4CE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F702A2A1E824DE200F4CE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F702A091E824DE200F4CE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F702A131E824DE200F4CE97 /* ViewController.swift in Sources */,
+				2F702A111E824DE200F4CE97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F702A1D1E824DE200F4CE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F702A261E824DE200F4CE97 /* RippleGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F702A281E824DE200F4CE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F702A311E824DE200F4CE97 /* RippleGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F702A231E824DE200F4CE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F702A0C1E824DE200F4CE97 /* RippleGenerator */;
+			targetProxy = 2F702A221E824DE200F4CE97 /* PBXContainerItemProxy */;
+		};
+		2F702A2E1E824DE200F4CE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F702A0C1E824DE200F4CE97 /* RippleGenerator */;
+			targetProxy = 2F702A2D1E824DE200F4CE97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F702A141E824DE200F4CE97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F702A151E824DE200F4CE97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F702A191E824DE200F4CE97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F702A1A1E824DE200F4CE97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F702A331E824DE200F4CE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F702A341E824DE200F4CE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F702A361E824DE200F4CE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R66XDN32F;
+				INFOPLIST_FILE = RippleGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F702A371E824DE200F4CE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R66XDN32F;
+				INFOPLIST_FILE = RippleGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2F702A391E824DE200F4CE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R66XDN32F;
+				INFOPLIST_FILE = RippleGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleGenerator.app/RippleGenerator";
+			};
+			name = Debug;
+		};
+		2F702A3A1E824DE200F4CE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R66XDN32F;
+				INFOPLIST_FILE = RippleGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleGenerator.app/RippleGenerator";
+			};
+			name = Release;
+		};
+		2F702A3C1E824DE200F4CE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2R66XDN32F;
+				INFOPLIST_FILE = RippleGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RippleGenerator;
+			};
+			name = Debug;
+		};
+		2F702A3D1E824DE200F4CE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2R66XDN32F;
+				INFOPLIST_FILE = RippleGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RippleGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F702A081E824DE200F4CE97 /* Build configuration list for PBXProject "RippleGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F702A331E824DE200F4CE97 /* Debug */,
+				2F702A341E824DE200F4CE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F702A351E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F702A361E824DE200F4CE97 /* Debug */,
+				2F702A371E824DE200F4CE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F702A381E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F702A391E824DE200F4CE97 /* Debug */,
+				2F702A3A1E824DE200F4CE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F702A3B1E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F702A3C1E824DE200F4CE97 /* Debug */,
+				2F702A3D1E824DE200F4CE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F702A051E824DE200F4CE97 /* Project object */;
+}
