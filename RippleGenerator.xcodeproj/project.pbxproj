@@ -12,26 +12,9 @@
 		2F702A161E824DE200F4CE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F702A141E824DE200F4CE97 /* Main.storyboard */; };
 		2F702A181E824DE200F4CE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F702A171E824DE200F4CE97 /* Assets.xcassets */; };
 		2F702A1B1E824DE200F4CE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F702A191E824DE200F4CE97 /* LaunchScreen.storyboard */; };
-		2F702A261E824DE200F4CE97 /* RippleGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702A251E824DE200F4CE97 /* RippleGeneratorTests.swift */; };
-		2F702A311E824DE200F4CE97 /* RippleGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702A301E824DE200F4CE97 /* RippleGeneratorUITests.swift */; };
+		2F702A3F1E824E6300F4CE97 /* HAKRippleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F702A3E1E824E6300F4CE97 /* HAKRippleGenerator.swift */; };
+		2F702A411E825D8300F4CE97 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2F702A401E825D8300F4CE97 /* demo.gif */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2F702A221E824DE200F4CE97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F702A051E824DE200F4CE97 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F702A0C1E824DE200F4CE97;
-			remoteInfo = RippleGenerator;
-		};
-		2F702A2D1E824DE200F4CE97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F702A051E824DE200F4CE97 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F702A0C1E824DE200F4CE97;
-			remoteInfo = RippleGenerator;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2F702A0D1E824DE200F4CE97 /* RippleGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RippleGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +24,16 @@
 		2F702A171E824DE200F4CE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F702A1A1E824DE200F4CE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F702A1C1E824DE200F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F702A211E824DE200F4CE97 /* RippleGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F702A251E824DE200F4CE97 /* RippleGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleGeneratorTests.swift; sourceTree = "<group>"; };
 		2F702A271E824DE200F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F702A2C1E824DE200F4CE97 /* RippleGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F702A301E824DE200F4CE97 /* RippleGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleGeneratorUITests.swift; sourceTree = "<group>"; };
 		2F702A321E824DE200F4CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F702A3E1E824E6300F4CE97 /* HAKRippleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAKRippleGenerator.swift; sourceTree = "<group>"; };
+		2F702A401E825D8300F4CE97 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2F702A0A1E824DE200F4CE97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F702A1E1E824DE200F4CE97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F702A291E824DE200F4CE97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				2F702A0D1E824DE200F4CE97 /* RippleGenerator.app */,
-				2F702A211E824DE200F4CE97 /* RippleGeneratorTests.xctest */,
-				2F702A2C1E824DE200F4CE97 /* RippleGeneratorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +66,12 @@
 			children = (
 				2F702A101E824DE200F4CE97 /* AppDelegate.swift */,
 				2F702A121E824DE200F4CE97 /* ViewController.swift */,
+				2F702A3E1E824E6300F4CE97 /* HAKRippleGenerator.swift */,
 				2F702A141E824DE200F4CE97 /* Main.storyboard */,
 				2F702A171E824DE200F4CE97 /* Assets.xcassets */,
 				2F702A191E824DE200F4CE97 /* LaunchScreen.storyboard */,
 				2F702A1C1E824DE200F4CE97 /* Info.plist */,
+				2F702A401E825D8300F4CE97 /* demo.gif */,
 			);
 			path = RippleGenerator;
 			sourceTree = "<group>";
@@ -145,42 +114,6 @@
 			productReference = 2F702A0D1E824DE200F4CE97 /* RippleGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2F702A201E824DE200F4CE97 /* RippleGeneratorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F702A381E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorTests" */;
-			buildPhases = (
-				2F702A1D1E824DE200F4CE97 /* Sources */,
-				2F702A1E1E824DE200F4CE97 /* Frameworks */,
-				2F702A1F1E824DE200F4CE97 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2F702A231E824DE200F4CE97 /* PBXTargetDependency */,
-			);
-			name = RippleGeneratorTests;
-			productName = RippleGeneratorTests;
-			productReference = 2F702A211E824DE200F4CE97 /* RippleGeneratorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2F702A2B1E824DE200F4CE97 /* RippleGeneratorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F702A3B1E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorUITests" */;
-			buildPhases = (
-				2F702A281E824DE200F4CE97 /* Sources */,
-				2F702A291E824DE200F4CE97 /* Frameworks */,
-				2F702A2A1E824DE200F4CE97 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2F702A2E1E824DE200F4CE97 /* PBXTargetDependency */,
-			);
-			name = RippleGeneratorUITests;
-			productName = RippleGeneratorUITests;
-			productReference = 2F702A2C1E824DE200F4CE97 /* RippleGeneratorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,19 +127,8 @@
 					2F702A0C1E824DE200F4CE97 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 2R66XDN32F;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
-					};
-					2F702A201E824DE200F4CE97 = {
-						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 2R66XDN32F;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2F702A0C1E824DE200F4CE97;
-					};
-					2F702A2B1E824DE200F4CE97 = {
-						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 2R66XDN32F;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2F702A0C1E824DE200F4CE97;
 					};
 				};
 			};
@@ -224,8 +146,6 @@
 			projectRoot = "";
 			targets = (
 				2F702A0C1E824DE200F4CE97 /* RippleGenerator */,
-				2F702A201E824DE200F4CE97 /* RippleGeneratorTests */,
-				2F702A2B1E824DE200F4CE97 /* RippleGeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,22 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F702A1B1E824DE200F4CE97 /* LaunchScreen.storyboard in Resources */,
+				2F702A411E825D8300F4CE97 /* demo.gif in Resources */,
 				2F702A181E824DE200F4CE97 /* Assets.xcassets in Resources */,
 				2F702A161E824DE200F4CE97 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F702A1F1E824DE200F4CE97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F702A2A1E824DE200F4CE97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,41 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F702A3F1E824E6300F4CE97 /* HAKRippleGenerator.swift in Sources */,
 				2F702A131E824DE200F4CE97 /* ViewController.swift in Sources */,
 				2F702A111E824DE200F4CE97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F702A1D1E824DE200F4CE97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F702A261E824DE200F4CE97 /* RippleGeneratorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F702A281E824DE200F4CE97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F702A311E824DE200F4CE97 /* RippleGeneratorUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2F702A231E824DE200F4CE97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2F702A0C1E824DE200F4CE97 /* RippleGenerator */;
-			targetProxy = 2F702A221E824DE200F4CE97 /* PBXContainerItemProxy */;
-		};
-		2F702A2E1E824DE200F4CE97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2F702A0C1E824DE200F4CE97 /* RippleGenerator */;
-			targetProxy = 2F702A2D1E824DE200F4CE97 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2F702A141E824DE200F4CE97 /* Main.storyboard */ = {
@@ -437,64 +316,6 @@
 			};
 			name = Release;
 		};
-		2F702A391E824DE200F4CE97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2R66XDN32F;
-				INFOPLIST_FILE = RippleGeneratorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleGenerator.app/RippleGenerator";
-			};
-			name = Debug;
-		};
-		2F702A3A1E824DE200F4CE97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2R66XDN32F;
-				INFOPLIST_FILE = RippleGeneratorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleGenerator.app/RippleGenerator";
-			};
-			name = Release;
-		};
-		2F702A3C1E824DE200F4CE97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2R66XDN32F;
-				INFOPLIST_FILE = RippleGeneratorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RippleGenerator;
-			};
-			name = Debug;
-		};
-		2F702A3D1E824DE200F4CE97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2R66XDN32F;
-				INFOPLIST_FILE = RippleGeneratorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raqtan.RippleGeneratorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = RippleGenerator;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -512,22 +333,6 @@
 			buildConfigurations = (
 				2F702A361E824DE200F4CE97 /* Debug */,
 				2F702A371E824DE200F4CE97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2F702A381E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F702A391E824DE200F4CE97 /* Debug */,
-				2F702A3A1E824DE200F4CE97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2F702A3B1E824DE200F4CE97 /* Build configuration list for PBXNativeTarget "RippleGeneratorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F702A3C1E824DE200F4CE97 /* Debug */,
-				2F702A3D1E824DE200F4CE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
