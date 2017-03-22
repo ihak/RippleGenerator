@@ -12,8 +12,8 @@ self.view.addSubview(rippleView!)
 ```
 Position the view using center property:
 ```swift
-        let screenCenter = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
-        rippleView.center = CGPoint.init(x: screenCenter.x, y: screenCenter.y/0.55)
+let screenCenter = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
+rippleView.center = CGPoint.init(x: screenCenter.x, y: screenCenter.y/0.55)
 ```
 
 Start animation:
